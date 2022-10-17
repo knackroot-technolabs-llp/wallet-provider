@@ -1,9 +1,9 @@
 {
-  "author": "Terraform Labs PTE.LTD",
+  "author": "Orbitium",
   "license": "Apache-2.0",
-  "repository": "git://github:terra-money/wallet-provider",
-  "bugs": "https://github.com/terra-money/wallet-provider/issues",
-  "homepage": "https://github.com/terra-money/wallet-provider/tree/main/packages/src/{name}",
+  "repository": "https://github.com/knackroot-technolabs-llp/wallet-provider.git",
+  "bugs": "https://github.com/knackroot-technolabs-llp/wallet-provider/issues",
+  "homepage": "https://github.com/knackroot-technolabs-llp/wallet-provider/tree/main/packages/src/{name}",
   "engines": {
     "node": ">=16"
   },

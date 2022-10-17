@@ -1,8 +1,8 @@
 {
   "private": true,
-  "author": "Terraform Labs PTE.LTD",
+  "author": "Orbitium",
   "license": "Apache-2.0",
-  "repository": "https://github.com/terra-money/wallet-provider",
+  "repository": "https://github.com/knackroot-technolabs-llp/wallet-provider",
   "workspaces": [
     "packages",
     "templates/*"
@@ -30,7 +30,7 @@
     "prettier": "^2.5.1"
   },
   "resolutions": {
-    "@terra-money/terra.js": "3.1.6"
+    "orbitium.js": "^1.0.0"
   },
   "packageManager": "yarn@3.2.1"
 }

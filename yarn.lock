@@ -2920,7 +2920,7 @@ __metadata:
   version: 3.6.0
   resolution: "@terra-dev/wallet-types@npm:3.6.0"
   peerDependencies:
-    "@terra-money/terra.js": ^3.0.0
+    "orbitium.js": ^3.0.0
   checksum: 84f7659cfb46d5312184e2a7d35a47d84e1089f44c17a6ed4e635af796bca57a0954fffda687350268232e38199e4d2bd43c96d32bff71af602ad4d50047ae15
   languageName: node
   linkType: hard
@@ -2931,7 +2931,7 @@ __metadata:
   dependencies:
     rxjs: ^7.4.0
   peerDependencies:
-    "@terra-money/terra.js": ^3.0.0
+    "orbitium.js": ^3.0.0
   checksum: 7ceb2c8d6a24653ed54c547e505a7646e76bb098e64bb401388a0b629af7f024a6c1bc47166583cae72b74e06ba244c61e681be943a321c5fa613f6353ca6493
   languageName: node
   linkType: hard
@@ -2947,9 +2947,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@terra-money/terra.js@npm:3.1.6":
+"orbitium.js@npm:3.1.6":
   version: 3.1.6
-  resolution: "@terra-money/terra.js@npm:3.1.6"
+  resolution: "orbitium.js@npm:3.1.6"
   dependencies:
     "@terra-money/legacy.proto": "npm:@terra-money/terra.proto@^0.1.7"
     "@terra-money/terra.proto": ^2.1.0
@@ -2987,7 +2987,7 @@ __metadata:
   dependencies:
     "@terra-dev/wallet-types": ^3.6.0
   peerDependencies:
-    "@terra-money/terra.js": ^3.0.0
+    "orbitium.js": ^3.0.0
     react: ">=17.0.0"
   checksum: 56dbabc83bd5face9ef120b9180601c8cd574db91a697e775233837c42382376541b7a2d7f10a77d83e0cb9fd5d40791c14dcd586d5a342461960601f67d0df2
   languageName: node
@@ -3012,7 +3012,7 @@ __metadata:
     secp256k1: ^4.0.0
     ws: ^7.5.5
   peerDependencies:
-    "@terra-money/terra.js": ^3.0.0
+    "orbitium.js": ^3.0.0
   checksum: 2cfb47d81d8c5d5a4116431e25f341234aaf040beb4b0b21b5ebaafe694668909929203f83f6de1e94d56a282139ad25c898eecd244ffe607987a3ce1ff95249
   languageName: node
   linkType: hard
@@ -6294,7 +6294,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cra-template@workspace:templates/create-react-app"
   dependencies:
-    "@terra-money/terra.js": ^3.1.6
+    "orbitium.js": ^3.1.6
     "@terra-money/wallet-provider": ^3.6.5
     "@testing-library/jest-dom": ^5.15.0
     "@types/jest": ^27.0.2
@@ -10855,7 +10855,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lit-template@workspace:templates/lit"
   dependencies:
-    "@terra-money/terra.js": ^3.1.6
+    "orbitium.js": ^3.1.6
     "@terra-money/wallet-provider": ^3.6.5
     buffer: ^6.0.3
     cross-env: ^7.0.3
@@ -11608,7 +11608,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "next-template@workspace:templates/next"
   dependencies:
-    "@terra-money/terra.js": ^3.1.6
+    "orbitium.js": ^3.1.6
     "@terra-money/wallet-provider": ^3.6.5
     "@types/react": ^17.0.34
     "@types/react-dom": ^17.0.11
@@ -12165,7 +12165,7 @@ __metadata:
   dependencies:
     "@sentry/browser": ^6.14.1
     "@sentry/tracing": ^6.14.1
-    "@terra-money/terra.js": ^3.1.6
+    "orbitium.js": ^3.1.6
     "@types/puppeteer": ^5.4.4
     "@types/qrcode": ^1.4.1
     "@types/qrcode.react": ^1.0.2
@@ -15633,7 +15633,7 @@ resolve@^2.0.0-next.3:
   resolution: "svelte-template@workspace:templates/svelte"
   dependencies:
     "@sveltejs/vite-plugin-svelte": ^1.0.0-next.30
-    "@terra-money/terra.js": ^3.1.6
+    "orbitium.js": ^3.1.6
     "@terra-money/wallet-provider": ^3.6.5
     "@tsconfig/svelte": ^2.0.1
     buffer: ^6.0.3
@@ -16560,7 +16560,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "vite-template@workspace:templates/vite"
   dependencies:
-    "@terra-money/terra.js": ^3.1.6
+    "orbitium.js": ^3.1.6
     "@terra-money/wallet-provider": ^3.6.5
     "@types/node": ^16.11.7
     "@types/react": ^17.0.34
@@ -16830,7 +16830,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "vue-template@workspace:templates/vue"
   dependencies:
-    "@terra-money/terra.js": ^3.1.6
+    "orbitium.js": ^3.1.6
     "@terra-money/wallet-provider": ^3.6.5
     "@vitejs/plugin-vue": ^2.0.1
     buffer: ^6.0.3

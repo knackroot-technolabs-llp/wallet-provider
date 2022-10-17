@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Coins } from '@terra-money/terra.js';
+  import { Coins } from 'orbitium.js';
   import { ConnectedWallet, createLCDClient } from '@terra-money/wallet-controller';
   import { getController } from 'controller';
   import { Subscription } from 'rxjs';

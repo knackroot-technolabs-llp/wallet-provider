@@ -1,4 +1,4 @@
-import { Fee, MsgSend, SyncTxBroadcastResult } from '@terra-money/terra.js';
+import { Fee, MsgSend, SyncTxBroadcastResult } from 'orbitium.js';
 import {
   createLCDClient,
   CreateTxFailed,

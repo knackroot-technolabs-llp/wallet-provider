@@ -1,4 +1,4 @@
-import { Fee, MsgSend } from '@terra-money/terra.js';
+import { Fee, MsgSend } from 'orbitium.js';
 import {
   CreateTxFailed,
   Timeout,
@@ -7,7 +7,7 @@ import {
   TxUnspecifiedError,
   useConnectedWallet,
   UserDenied,
-} from '@terra-money/wallet-provider';
+} from '@orbitium/wallet-provider';
 import React, { useCallback, useState } from 'react';
 
 const TEST_TO_ADDRESS = 'terra12hnhh5vtyg5juqnzm43970nh4fw42pt27nw9g9';

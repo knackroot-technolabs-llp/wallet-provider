@@ -1,4 +1,4 @@
-import { useConnectedWallet, useLCDClient } from '@terra-money/wallet-provider';
+import { useConnectedWallet, useLCDClient } from '@orbitium/wallet-provider';
 import React, { useEffect, useState } from 'react';
 
 export function QuerySample() {

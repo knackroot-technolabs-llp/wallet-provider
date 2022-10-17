@@ -1,4 +1,4 @@
-import { Fee, MsgSend } from '@terra-money/terra.js';
+import { Fee, MsgSend } from 'orbitium.js';
 import {
   CreateTxFailed,
   Timeout,

@@ -1,4 +1,4 @@
-import { Coins } from '@terra-money/terra.js';
+import { Coins } from 'orbitium.js';
 import {
   ConnectedWallet,
   createLCDClient,

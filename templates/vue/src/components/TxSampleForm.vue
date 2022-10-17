@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Fee, MsgSend } from '@terra-money/terra.js';
+import { Fee, MsgSend } from 'orbitium.js';
 import {
   ConnectedWallet,
   CreateTxFailed,

@@ -1,5 +1,5 @@
 {
-  "name": "packages",
+  "name": "orbitium-packages",
   "version": "1.0.0",
   "scripts": {
     "build": "TS_NODE_PROJECT=tsconfig.script.json node -r ts-node/register -r tsconfig-paths/register scripts/build.ts",
@@ -16,7 +16,7 @@
     ]
   },
   "dependencies": {
-    "@terra-money/terra.js": "^3.1.6",
+    "orbitium.js": "^1.0.0",
     "@walletconnect/core": "^1.6.6",
     "@walletconnect/iso-crypto": "^1.6.6",
     "@walletconnect/types": "^1.6.6",
@@ -56,7 +56,7 @@
     "cross-env": "^7.0.3",
     "lint-staged": "^11.2.6",
     "puppeteer": "^11.0.0",
-    "rocket-punch": "^3.0.2",
+    "rocket-punch": "^3.0.3",
     "terra-web-extension": "^0.11.4",
     "ts-node": "^10.4.0",
     "tsconfig-paths": "^3.11.0",

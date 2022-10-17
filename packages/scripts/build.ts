@@ -40,9 +40,9 @@ build({
       dependencies['rxjs'] = '^7.0.0';
     }
 
-    if ('@terra-money/terra.js' in dependencies) {
-      delete dependencies['@terra-money/terra.js'];
-      peerDependencies['@terra-money/terra.js'] = '^3.1.6';
+    if ('orbitium.js' in dependencies) {
+      delete dependencies['orbitium.js'];
+      peerDependencies['orbitium.js'] = '^1.0.0';
     }
 
     //switch (packageName) {

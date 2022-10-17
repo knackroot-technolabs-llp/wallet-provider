@@ -1,4 +1,4 @@
-import { Fee, MsgInstantiateContract } from '@terra-money/terra.js';
+import { Fee, MsgInstantiateContract } from 'orbitium.js';
 import {
   CreateTxFailed,
   Timeout,
@@ -7,7 +7,7 @@ import {
   useConnectedWallet,
   UserDenied,
   useWallet
-} from '@terra-money/wallet-provider';
+} from '@orbitium/wallet-provider';
 import React, { useCallback, useState } from 'react';
 
 export function PostSample() {
